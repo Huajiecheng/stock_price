@@ -63,7 +63,6 @@ class StockTest(TestCase):
 
     def test_get_error(self):
         response = client.get("/stock/get_stockdata?symbol=MSFT&start=2020-01-13")
-        json_data = json.loads(response.content)
         self.assertEqual(response.status_code, 404)
 
     def test_delete_error(self):

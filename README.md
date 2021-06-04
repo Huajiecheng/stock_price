@@ -13,4 +13,4 @@ delete stock and related data based on symbol
 example: /stock/get_stockdata?symbol=MSFT  
   
 test cases are written in stock/tests.py  
-use python manage.py test to run test cases  
+use '''python manage.py test''' to run test cases  

@@ -1,4 +1,4 @@
-# stock_price
+# Stock_price
 
 stock data can be added though post request  
 /stock/add_stockdata  
